@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Nickel</title>
+</head>
+
+<body ng-app="app">
+    <div class="container-fluid" style="padding:0;">
+        <nav class="navbar nav-fixed-top navbar-expand-lg navbar-inverse flex-column" style="padding:0">
+            <a href="/" class="navbar-brand"><img class="logo" src="logo.jpg" alt="nickel logo" srcset=""> The Nickel Project</a>
+            <div class="bg-light-gray" style="width: 100%">
+                <div class="container" id="collapsingNavbar">
+                        <ul class="nav navbar-nav ">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#!mission">Mission</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#!vision">Vision</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#!serve">Service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#!support">Why Support Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#!give">Give a Nickel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#!more">More than A Nickel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#!thoughts">A Nickel for your thoughts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#!events">Events</a>
+                            </li>
+                        </ul>
+
+                </div>
+            </div>
+
+        </nav>
+    </div>
+
+    <div ng-view></div>
+    <nav class="navbar nav-fixed-bottom navbar-expand-lg navbar-inverse flex-column" style="padding:0;border-top: dotted 1px #cccccc;">
+            <a href="/" class="navbar-brand">© Copyright 2018 The Nickel Project </a>
+    </nav>
+    <script src="jquery.min.js"></script>
+    <script src="angularjs.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.0/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="controllers/MainController.js"></script>
+    <script src="controllers/MoreController.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

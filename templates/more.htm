@@ -1,0 +1,25 @@
+<div class="container">
+        <div class="col-xs-12 sec">
+            <h2 class="r-header">More Than A Nickel</h2>
+            <h4>Sponsors
+            </h4>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Amount</th>
+                        <th>Since</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="sponsor in vm.sponsors">
+                        <td>{{sponsor.name}}</td>
+                        <td>{{sponsor.amount | currency}}</td>
+                        <td>{{sponsor.since}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            </div>
+        </div>
+    </div>

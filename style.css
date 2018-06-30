@@ -1,0 +1,35 @@
+.card{
+    margin-bottom:100px;
+}
+
+.bg-light-gray{
+ background-color:#ebebeb;
+}
+
+.nav > li > a {
+    font-size: 1.2em;
+    color:rgb(45, 126, 58);
+}
+
+.navbar-brand{
+    color:rgb(45, 126, 58);
+}
+
+.nav-item.active{
+    background-color: white;
+}
+
+.nav-item:hover{
+    background-color: white;
+}
+
+.logo{
+    height:50px;
+}
+
+.r-header{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:rgb(45, 126, 58);
+}
